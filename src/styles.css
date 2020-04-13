@@ -11,6 +11,15 @@ html {
   margin-top: 25px;
 }
 
+.e-input-group{width: 100%;
+  border: 1px solid #ccc!important;
+  padding: 4px!important;
+  border-radius: 4px!important;}
+
+.register-user {
+  margin-top: 25px;
+}
+
 .invalid-feedback {
   display: block;
 }

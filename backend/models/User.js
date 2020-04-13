@@ -2,21 +2,21 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 // Define collection and schema
-let Employee = new Schema({
+let User = new Schema({
    name: {
       type: String
    },
    email: {
       type: String
    },
-   designation: {
-      type: String
-   },
    phoneNumber: {
       type: Number
+   },
+   dob: {
+      type: String
    }
 }, {
-   collection: 'employees'
+   collection: 'users'
 })
 
-module.exports = mongoose.model('Employee', Employee)
+module.exports = mongoose.model('User', User)

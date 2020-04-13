@@ -1,6 +1,6 @@
-export class Employee {
+export class User {
    name: string;
    email: string;
-   designation: string;
+   dob: string;
    phoneNumber: number;
 }
